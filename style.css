@@ -1,0 +1,91 @@
+body{
+
+    padding: 0;
+    margin: 0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header
+{
+    height: 60px;
+    width: 100%;
+    background-color: cadetblue;
+    
+    padding : 5px;
+
+}
+#logo
+{
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    padding : 4px 6px;
+}
+.buttons
+{
+    float: left;
+    padding : 6px;
+    border: 1px solid black;
+    border-right: none;
+}
+#buttoncontainer
+{
+    width:242px;
+    margin: 0 auto;
+    position: relative;
+    top: -25px;
+    color: white;
+}
+#html
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+#output
+{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-right: 1px solid black;
+    
+}
+.active
+{
+    color: yellow;
+    background-color: red;
+}
+.highlighted
+{
+    background-color: skyblue;
+}
+
+textarea
+{
+    
+    resize: none;
+    
+    
+    padding: 0;
+    margin: 0;
+
+}
+
+.panel
+{
+    float: left;
+    width: 50%;
+    border: none;
+    border-left: 1px solid black;
+    
+    
+}
+.hidden
+{
+    display: none;
+}
+iframe
+{
+    border: none;
+}
+#clear
+{
+    clear: both;
+}
